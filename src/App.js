@@ -4,7 +4,8 @@ import React from 'react';
 import AjaxApis from "./components/AjaxApis";
 import ContadorHooks from './components/Contadorooks'
 import ScrollHooks from './components/ScrollHooks'
-
+import RelojHooks from './components/RelojHooks';
+import AjaxHooks from './components/AjaxHooks';
 function App() {
   return (
     <div className="App">
@@ -34,11 +35,11 @@ function App() {
           <hr />
           <ScrollHooks />
           <hr />
-          {/*<RelojHooks />
+          <RelojHooks />
           <hr />
           <AjaxHooks />
           <hr />
-          <HooksPersonalizados />
+          {/*<HooksPersonalizados />
           <hr />
           <Referencias />
           <hr />
