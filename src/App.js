@@ -6,11 +6,16 @@ import ContadorHooks from './components/Contadorooks'
 import ScrollHooks from './components/ScrollHooks'
 import RelojHooks from './components/RelojHooks';
 import AjaxHooks from './components/AjaxHooks';
+import HooksPersonalizados from './components/HooksPersonalizados';
+import Referencias from './components/Referencias';
+import Formularios from './components/Formularios';
+import Estilos from './components/Estilos';
+import ComponentesEstilizados from './components/ComponentesEstilizados';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <section>
+        {/* <section>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -23,7 +28,7 @@ function App() {
           >
             Learn React
           </a>
-        </section>
+        </section> */}
         <section>
 
           <hr />
@@ -39,15 +44,15 @@ function App() {
           <hr />
           <AjaxHooks />
           <hr />
-          {/*<HooksPersonalizados />
+          {/* <HooksPersonalizados /> */}
           <hr />
           <Referencias />
           <hr />
           <Formularios />
           <hr />
-          <Estilos />
+           <Estilos />
           <hr />
-          <ComponentesEstilizados /> */}
+          <ComponentesEstilizados />
           <br />
           <br />
           <br />
